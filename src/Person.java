@@ -1,38 +1,23 @@
 
-public class Person {
+public class Person extends PersonManager {
 
+	public Person(String name, int id, int yearJoined) {
+		super(name, id, yearJoined);
+		
+	}
 	private String name;
 	private int id;
 	private int yearJoined;
 
-	public Person(String name, int id, int yearJoined) {
-		this.name = name;
-		this.id = id;
-		this.yearJoined = yearJoined;
+	private boolean hasmembership;
+
+	public boolean hasmembership() {
+		return hasmembership;
 	}
 
-	public String getName() {
-		return name;
+	public void sethasmembership(boolean hasmembership) {
+		this.hasmembership = hasmembership;
 	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
-	public int getYearJoined() {
-		return yearJoined;
-	}
-
-	public void setYearJoined(int yearJoined) {
-		this.yearJoined = yearJoined;
-	}
-
 }
+	
+	

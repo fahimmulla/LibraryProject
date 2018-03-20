@@ -16,7 +16,6 @@ public class MainMthd {
 		System.out.print("hello");
 
 		Library mylibrary = new Library();
-		
 
 		mylibrary.addToArrays(HarryPotterCollection);
 		mylibrary.addToArrays(NeuroscienceEngineering);
@@ -28,9 +27,20 @@ public class MainMthd {
 		mylibrary.addToArrays(Warfiles);
 		mylibrary.addToArrays(AncientAliens);
 		
-		
-		
-		
+	}
+	{
+
+		Library myPerson = new Library();
+
+		Person Fahim = new Person("Fahim", 145678, 2018);
+		Person Tom = new Person("Tom", 1284658, 2000);
+		Person Elvis = new Person("Elvis", 22395, 1980);
+		Person Matt = new Person ("Matt", 1222395, 1993);
+
+		myPerson.addedtoArray(Fahim);
+		myPerson.addedtoArray(Tom);
+		myPerson.addedtoArray(Elvis);
+		myPerson.addedtoArray(Matt);
 	}
 
 }
