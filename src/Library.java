@@ -7,9 +7,11 @@ public class Library {
 
 	public void addToArrays(Items inItems) {
 		newLists.add(inItems);
+		System.out.println(inItems.getGenre());
 	}
 
 	public void addedtoArray(PersonManager inPersonManager) {
 		newList.add(inPersonManager);
+		System.out.println(inPersonManager.getName());
 	}
 }

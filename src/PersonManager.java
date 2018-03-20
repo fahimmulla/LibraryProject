@@ -5,7 +5,7 @@ public abstract class PersonManager {
 	private int id;
 	private int yearJoined;
 
-	public PersonManager(String name2, int id2, int yearJoined2) {
+	public PersonManager(String name2, int id, int yearJoined2) {
 		// TODO Auto-generated constructor stub
 	}
 
