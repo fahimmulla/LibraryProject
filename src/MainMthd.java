@@ -13,7 +13,10 @@ public class MainMthd {
 		MediaSource Warfiles = new MediaSource("Warfiles", 15, "Educational", 1983);
 		MediaSource AncientAliens = new MediaSource("AncientAliens", 15, "Educational", 2004);
 
+		System.out.print("hello");
+
 		Library mylibrary = new Library();
+		
 
 		mylibrary.addToArrays(HarryPotterCollection);
 		mylibrary.addToArrays(NeuroscienceEngineering);
@@ -24,20 +27,10 @@ public class MainMthd {
 		mylibrary.addToArrays(learnJavaDVD);
 		mylibrary.addToArrays(Warfiles);
 		mylibrary.addToArrays(AncientAliens);
-	}
-
-	{
-		Library myPerson = new Library();
-
-		Person Fahim = new Person("Fahim", 145678, 2018);
-		Person Tom = new Person("Tom", 1284658, 2000);
-		Person Elvis = new Person("Elvis", 22395, 1980);
-		Person Matt = new Person("Matt", 1222395, 1993);
-
-		/*myperson.addToArray(Fahim);
-		myperson.addToArray(Tom);
-		myperson.addToArray(Elvis);
-		myperson.addToArray(Matt);*/
+		
+		
+		
+		
 	}
 
 }

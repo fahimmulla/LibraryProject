@@ -7,5 +7,7 @@ public class Library {
 	public void addToArrays(Items inItems) {
 		newLists.add(inItems);
 	}
-
+	public void addtoArray(Items inPerson) {
+		newLists.add(inPerson);
+	}
 }
