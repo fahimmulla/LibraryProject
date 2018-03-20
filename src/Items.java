@@ -5,14 +5,16 @@ public abstract class Items {
 	private double id;
 	private String genre;
 	private int year;
+	private boolean isAvaliable;
 
-	public Items(String name, double id, String genre, int year) {
+	public Items(String name, double id, String genre, int year, boolean isAvaliable) {
 		this.name = name;
 		this.id = id;
 		this.genre = genre;
 		this.year = year;
+		this.isAvaliable = isAvaliable;
 	}
-
+	
 	public String getName() {
 		return name;
 	}
@@ -44,5 +46,13 @@ public abstract class Items {
 	public void setYear(int year) {
 		this.year = year;
 	}
+	public boolean isAvaliable() {
+		return isAvaliable;
+	}
 
+	public void setAvaliable(boolean isAvaliable) {
+		this.isAvaliable = isAvaliable;
+	}
 }
+
+

@@ -1,8 +1,8 @@
 
 public class MediaSource extends Items {
 
-	public MediaSource(String name, double id, String genre, int year) {
-		super(name, id, genre, year);
+	public MediaSource(String name, double id, String genre, int year, boolean isAvaliable) {
+		super(name, id, genre, year, isAvaliable);
 	}
 	private boolean hasaudioandvideofiles;
 

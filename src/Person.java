@@ -5,10 +5,6 @@ public class Person extends PersonManager {
 		super(name, id, yearJoined);
 		
 	}
-	private String name;
-	private int id;
-	private int yearJoined;
-
 	private boolean hasmembership;
 
 	public boolean hasmembership() {
